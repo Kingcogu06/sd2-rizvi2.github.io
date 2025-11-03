@@ -1,18 +1,25 @@
 # Project Proposal
-Food Hygiene app to show good hygiene of nearby establishments
+Food Hygiene app is an app that will be designed to improve food hygiene awareness, monitoring food vendors and restaurants. The app will be both an informative and monitoring app. Can have features like such as hygiene checklists, inspection scheduling and customer feedback.
 ## Business Case
-An app that helps users know about food hygiene in thier area.
+Food related diseases affect millions globally each year, resulting in significant public health and economic impacts.
 ### Problem statement
-TODO: To help people stop going to bad restaurants with hygiene problems and help other restaurants know their hygiene rating.
+Many food vendors/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. 
 
 ### Business benefits
-TODO: To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings.
+ To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings. Simplifies documentation of inspections
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
+ What are some other customer options or leading products that address the same needs?
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+Low user adoption
+Data/security concerns
+inaccurate or manipulated data
+system downtime
+legal challeges
+limited financial sustainablity
+negative public feedback
+cultural barriers
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
