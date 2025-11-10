@@ -25,3 +25,5 @@ cultural barriers
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
 ![Insert your Context Diagram Here](images/context.png)
+<img width="859" height="297" alt="image" src="https://github.com/user-attachments/assets/d2ed170c-1b14-4411-88f7-e012c729a0b6" />
+
