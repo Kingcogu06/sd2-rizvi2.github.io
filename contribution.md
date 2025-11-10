@@ -2,5 +2,5 @@
 
 1. TEAM MEMBER CONTRIBUTION
 27/10/25 - Daniyal and Mwelwa both did completed planning phase
-29/10/25 - Daniyal made a use case mind map
+29/10/25 - Daniyal made a context diagram to complete planning phase
 03/11/25 - Daniyal completed requirements functional and non-functional 
