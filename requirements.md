@@ -19,11 +19,17 @@ Localisation -> Support multiple langauages and regional hygiene rating systems.
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+As a food handler, I want to log my daily hygiene tasks so my manager can verify I followed the safety procedures. As a food handler, I want to record food and fridge temperatures so that the business stays in line with safety standards. As a food handler, I want to complete hygiene training so that I can keep my cerification to date. As a food handler, I want to report hazrads so that it can be solved quickly.
+As a manager, I want to review staff hygiene logs so that I can ensure all tasks were completed correctly. As a manager, i want to generate reports on hygiene compliance so that I can prepare for health inspections. As a manager, i want to track staff hygiene training so that everyone on the team meets the legal requirements. As a manager, I want to recieve alerts about overdue or missed tasks so that I can take immediate action.
+As a health inspector, I want to access recent hygiene reports so I can verify statements. As a health inspector, I want to leave audit notes or reccommendations so the business can improve.
+As system admin, I want to manage user accounts and permissions so authroised users can access sensitivie data. 
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+The actors and users for the food hygiene app will be:
+Food handler/employee
+Manager/supervisor
+The system admin
+Health inspector
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
