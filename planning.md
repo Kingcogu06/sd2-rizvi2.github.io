@@ -9,20 +9,25 @@ Many food vendors/restaurants lack access to proper training and hygiene monitor
  To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings. Simplifies documentation of inspections
 
 ### Options Considered
- Consumers can directly check offical databases such as the UK Food Standards Agency (FSA) hygiene rating site. This is quite reliable and up-to-date however, it is not convenient and isn't user friendly as an app. Restaurant reviews are often include hygiene comments or ratings from personal experiences from customers. The only potential con I can see at the moment is that from this perspective is that it is not offical ratings so can be misleading.
+ Consumers can directly check offical databases such as the UK Food Standards Agency (FSA) hygiene rating site. This is quite reliable and up-to-date however, it is not convenient and isn't user friendly as an app. Restaurant reviews are often include hygiene comments or ratings from personal experiences from customers. The only potential con I can see at the moment is that from this perspective is that it is not offical ratings so can be misleading. Third party apps may show food ratings that are often inaccurate and are not regularly updated which makes them unreliable.
 
 ### Expected Risks
 Low user adoption
 Data/security concerns
 inaccurate or manipulated data
-system downtime
+system downtime to update ratings
 legal challeges
 limited financial sustainablity
 negative public feedback
 cultural barriers
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
+The project is a food hygiene rating application that enables users to:
+Search for food businesses by name and location
+Filter businesses by hygiene rating (1-5)
+Naviagte results using next and previous buttons
+Access real life data from Bristol Open Data API with a backup data source
+
 
 ![Insert your Context Diagram Here](images/context.png)
 <img width="859" height="297" alt="image" src="https://github.com/user-attachments/assets/d2ed170c-1b14-4411-88f7-e012c729a0b6" />
