@@ -20,17 +20,25 @@ The Non-Functional requirements are:
 ## User Needs
 
 #### User stories
-As a food handler, I want to log my daily hygiene tasks so my manager can verify I followed the safety procedures. As a food handler, I want to record food and fridge temperatures so that the business stays in line with safety standards. As a food handler, I want to complete hygiene training so that I can keep my cerification to date. As a food handler, I want to report hazrads so that it can be solved quickly.
-As a manager, I want to review staff hygiene logs so that I can ensure all tasks were completed correctly. As a manager, i want to generate reports on hygiene compliance so that I can prepare for health inspections. As a manager, i want to track staff hygiene training so that everyone on the team meets the legal requirements. As a manager, I want to recieve alerts about overdue or missed tasks so that I can take immediate action.
-As a health inspector, I want to access recent hygiene reports so I can verify statements. As a health inspector, I want to leave audit notes or reccommendations so the business can improve.
-As system admin, I want to manage user accounts and permissions so authroised users can access sensitivie data. 
+As a User, I want to search for food hygiene ratings by business name, location or rating so I am able to make a good choice about where to eat.
+As a User, I want the application to suggest nearby businesses if my search returns with no results so I can find alternatives. 
+As a User, I want to filter search results by rating so I can identify businesses with a high standard of food hygiene.
+As a User, I want to report any food safety issues through the application so I can alert authorities to the risks the business is accommodating.
+As a User, I want the application to be accessible on mobile devices so that it can be used on the move. 
+As a User, I want to recieve confirmation after submitting a report so I know my submission was successful.
+As a User, I want the application to detect my location and for the application to show nearby businesses.
+As a User, I want to view hygiene ratings in a list format so I can quickly scan multiple businesses without using the geolocation feature.
+As a User, I want to naviagte through pages when there are many results so I can explore more options.
+As a User, I want to see the total of businesses listed so I know how many options are available.
 
+As a Business Owner, I want to be proud of hygiene rating as it would encourage more people to visit the business.
+
+As a Developer, I want to have access to Bristol Open Data API and implement it into the application to retrieve accurate food hygiene ratings for businesses.
 ### Actors
 The actors and users for the food hygiene app will be:
-Food handler/employee
-Manager/supervisor
-The system admin
-Health inspector
+* Users --> Consumers who want to view and search for food hygiene ratings for local food businesses/restaurants in Bristol to make decisions on where to eat and report any food related issues.
+* Business Owners --> Food business owners in Bristol who want to access their information. The information that will be available on the application is the organisation's food hygiene rating, maintain their accurate information, request corrections and answer to reported incidents.
+* Developer --> Responsible for creating and maintaining the database, managing corrections, handling appeals and making sure the app works properly and keeping data accurate from Bristol Open Data.
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
