@@ -1,9 +1,9 @@
 # Project Proposal
-Food Hygiene app is an app that will be designed to improve food hygiene awareness, monitoring food vendors and restaurants. The app will be both an informative and monitoring app. Can have features like such as hygiene checklists, inspection scheduling and customer feedback.
+Food Hygiene Rating Application is an app that will be designed to improve food hygiene awareness, monitoring food businesses and restaurants. The app will be both an informative and monitoring app. The application will be used by customers to solve indecisiveness when choosing a place to eat and will encourage business owners to maintain/improve their ratings due to their ratings being publically available. 
 ## Business Case
-Food related diseases affect millions globally each year, resulting in significant public health and economic impacts.
+Food related diseases affect millions globally each year, resulting in significant public health and economic impacts. Most people also get overwhelmed with the choices available for places to eat so this app will help customers pick quickly.
 ### Problem statement
-Many food vendors/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. This makes it difficult to decide where to eat due to hygiene ratings being mostly paper-based and while online they are scattered across many different webistes making it not so easily accessible. People would want a business where they can view a place ratings and make a quick decision on where to eat.
+Many food businesses/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. This makes it difficult to decide where to eat due to hygiene ratings being mostly paper-based and while online they are scattered across many different webistes making it not so easily accessible. People would want a business where they can view a place ratings and make a quick decision on where to eat.
 
 ### Business benefits
  To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings. Simplifies documentation of inspections. The application helps customers access information about how clean food businesses are which helps them choose safer places to eat. This encourages business owners to maintain/improve their hygiene standards since their ratings will be publically available. 
@@ -23,10 +23,10 @@ Many food vendors/restaurants lack access to proper training and hygiene monitor
 
 ## Project Scope
 The project is a food hygiene rating application that enables users to:
-Search for food businesses by name and location
-Filter businesses by hygiene rating (1-5)
-Naviagte results using next and previous buttons
-Access real life data from Bristol Open Data API with a backup data source
+* Search for food businesses by name and location
+* Filter businesses by hygiene rating (1-5)
+* Naviagte results using next and previous buttons
+* Access real life data from Bristol Open Data API with a backup data source
 
 
 ![Insert your Context Diagram Here](images/context.png)
