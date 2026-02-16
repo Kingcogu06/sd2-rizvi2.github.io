@@ -1,1 +1,1 @@
-# Food Hygiene rating app
+# Food Hygiene Rating App
