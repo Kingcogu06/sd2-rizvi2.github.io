@@ -3,7 +3,7 @@ Food Hygiene app is an app that will be designed to improve food hygiene awarene
 ## Business Case
 Food related diseases affect millions globally each year, resulting in significant public health and economic impacts.
 ### Problem statement
-Many food vendors/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. 
+Many food vendors/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. This makes it difficult to decide where to eat due to hygiene ratings being mostly paper-based and while online they are scattered across many different webistes making it not so easily accessible. People would want a business where they can view a place ratings and make a quick decision on where to eat.
 
 ### Business benefits
  To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings. Simplifies documentation of inspections
