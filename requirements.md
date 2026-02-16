@@ -1,24 +1,25 @@
 # Requirements
+## Functional Requirements 
 The Functional Requirements that the food hygiene app have are:
-Search functionality -> Users are able to search for food businesses by name, location or cuisine.
-Food hygiene ratings -> Display offical food hygiene scores.
-Inspector details -> Show inspection data e.g. date, reason and notes.
-Map integration -> Interactive apps to locate nearby business with ratings and filters.
-Customer reviews and photos -> Allows customers to share personal expereinces which are seperate from the hygiene data.
-Report a problem -> To report issues or suspected hygiene violations to relevant authority.
-
+* Search functionality -> Users are able to search for food businesses by name, location or cuisine.
+* Food hygiene ratings -> Display offical food hygiene scores.
+* Inspector details -> Show inspection data e.g. date, reason and notes.
+* Map integration -> Interactive apps to locate nearby business with ratings and filters.
+* Customer reviews and photos -> Allows customers to share personal expereinces which are seperate from the hygiene data.
+* Report a problem -> To report issues or suspected hygiene violations to relevant authority.
+### Non-Functional Requirements
 The Non-Functional requirements are:
-Usablity -> Simple design for easy use for all ages.
-Performance -> Fast loading of search results and data for said results.
-Scalablity -> Handle large datasets for the food businesses.
-Reliablity -> Data should be accurate and updated frequently.
-Compatiblity -> Available on IOS, Android and web platforms.
-Accessiblity -> Meet accessiblity standards.
-Localisation -> Support multiple langauages and regional hygiene rating systems. 
+* Usablity -> Simple design for easy use for all ages.
+* Performance -> Fast loading of search results and data for said results.
+* Scalablity -> Handle large datasets for the food businesses.
+* Reliablity -> Data should be accurate and updated frequently.
+* Compatiblity -> Available on IOS, Android and web platforms.
+* Accessiblity -> Meet accessiblity standards.
+* Screen size --> Must accommodate all screen sizes for the device that is being used.
 
 ## User Needs
 
-### User stories
+#### User stories
 As a food handler, I want to log my daily hygiene tasks so my manager can verify I followed the safety procedures. As a food handler, I want to record food and fridge temperatures so that the business stays in line with safety standards. As a food handler, I want to complete hygiene training so that I can keep my cerification to date. As a food handler, I want to report hazrads so that it can be solved quickly.
 As a manager, I want to review staff hygiene logs so that I can ensure all tasks were completed correctly. As a manager, i want to generate reports on hygiene compliance so that I can prepare for health inspections. As a manager, i want to track staff hygiene training so that everyone on the team meets the legal requirements. As a manager, I want to recieve alerts about overdue or missed tasks so that I can take immediate action.
 As a health inspector, I want to access recent hygiene reports so I can verify statements. As a health inspector, I want to leave audit notes or reccommendations so the business can improve.
