@@ -19,7 +19,7 @@ Many food businesses/restaurants lack access to proper training and hygiene moni
 * legal challeges
 * limited financial sustainablity
 * negative public feedback
-*cultural barriers
+* cultural barriers
 
 ## Project Scope
 The project is a food hygiene rating application that enables users to:
