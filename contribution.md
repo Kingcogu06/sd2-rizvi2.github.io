@@ -12,3 +12,5 @@
 30/12/25 - Daniyal edited all the sections to make it sound and flow better
 
 10/01/26 - Daniyal made a wireframe
+
+15/01/26 - Rewrote requirements for a better understanding on what is needed for the app
