@@ -6,7 +6,13 @@ Food related diseases affect millions globally each year, resulting in significa
 Many food businesses/restaurants lack access to proper training and hygiene monitoring tools. Inspection systems used by health authorities are often manual, inefficient and paper-based. This makes it difficult to decide where to eat due to hygiene ratings being mostly paper-based and while online they are scattered across many different webistes making it not so easily accessible. People would want a business where they can view a place ratings and make a quick decision on where to eat.
 
 ### Business benefits
- To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings. Simplifies documentation of inspections. The application helps customers access information about how clean food businesses are which helps them choose safer places to eat. This encourages business owners to maintain/improve their hygiene standards since their ratings will be publically available. 
+ * To help people know about hygiene ratings and encourage other restaurants to try and improve their ratings.
+ * Simplifies documentation of inspections.
+ * The application helps customers access information about how clean food businesses are which helps them choose safer places to eat.
+ * This encourages business owners to maintain/improve their hygiene standards since their ratings will be publically available.
+ * Lets hygiene inspectors look at the app and see previous reuslts and come to a place with expectations.
+ * Lets more unknown restaurants be more known if they have a better hygiene rating.
+ * Puts more unknown restaurants at the top so it gives exposure to more locally owned business.
 
 ### Options Considered
  Consumers can directly check offical databases such as the UK Food Standards Agency (FSA) hygiene rating site. This is quite reliable and up-to-date however, it is not convenient and isn't user friendly as an app. Restaurant reviews are often include hygiene comments or ratings from personal experiences from customers. The only potential con I can see at the moment is that from this perspective is that it is not offical ratings so can be misleading. Third party apps may show food ratings that are often inaccurate and are not regularly updated which makes them unreliable.
@@ -19,12 +25,13 @@ Many food businesses/restaurants lack access to proper training and hygiene moni
 * legal challeges
 * limited financial sustainablity
 * negative public feedback
-* cultural barriers
+* Convincing users to go to less known businesses
+* Handling large datasets to maintain quick loading times.
 
 ## Project Scope
 The project is a food hygiene rating application that enables users to:
 * Search for food businesses by name and location
-* Filter businesses by hygiene rating (1-5)
+* Filter businesses by hygiene rating (0-5)
 * Naviagte results using next and previous buttons
 * Access real life data from Bristol Open Data API with a backup data source
 
