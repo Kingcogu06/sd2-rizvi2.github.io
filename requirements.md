@@ -42,12 +42,19 @@ As a User, I want to see the total of businesses listed so I know how many optio
 
 As a Business Owner, I want to be proud of hygiene rating as it would encourage more people to visit the business.
 
+As a Inspector, I want to be able to look at old results and enter a business with expectations.
+
+As a Inspector, I want to be able to decrease the amount of paper used in documenting hygiene in these businesses.
+
+As a Inspector, I want to show my results publically while keeping parts of the result confidential for only the business owners to see.
+
 As a Developer, I want to have access to Bristol Open Data API and implement it into the application to retrieve accurate food hygiene ratings for businesses.
 
 ### Actors
 The actors and users for the food hygiene app will be:
 * Users --> Consumers who want to view and search for food hygiene ratings for local food businesses/restaurants in Bristol to make decisions on where to eat and report any food related issues.
 * Business Owners --> Food business owners in Bristol who want to access their information. The information that will be available on the application is the organisation's food hygiene rating, maintain their accurate information, request corrections and answer to reported incidents.
+* Food Hygiene Inspector --> Inspectors come to businesses with expectations and make their reason for their grade publically which leave some things secret for only the business owner to see.
 * Developer --> Responsible for creating and maintaining the database, managing corrections, handling appeals and making sure the app works properly and keeping data accurate from Bristol Open Data.
 
 ### Use Cases
