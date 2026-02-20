@@ -77,10 +77,10 @@ TODO: Describe each use case (at least one per team member).
 | **Description** | The business owner can verify that their food hygiene rating is accurate and if someone reports that their is incorrect rating, it is their responsiblity to fix the rating to make it accurate. |
 | **Actors** | Business owners and Inspectors |
 | **Assumptions** | <ul><li> The business owner has access to the food hygiene application and can look at reports to their business about their ratings. </li><li> The business owner's organisation already has an existing rating in the Bristol Open Data API database so they are responsible for updating when they have a better/lower rating. </li><li> Business owners can reply to reports to say that they are working on the issue that the report has brought to light.  |
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Steps** |  |
+| **Variations** | If the business isn't found in the application, the app then shows suggested/reccommended businesses nearby.  |
+| **Non-functional** | <ul><li> The application should be available 24/7 365 days which allows consumers to report issues at anytime of the day.</li><li> The Business owners would then fix the reports as soon as posssible and can fix these anytime in the day so consumers wouldn't be confused with the inaccurate ratings. |
+| **Issues** | The system must handle situations where business data is missing or outdated, this would then be fixed through the business owner to fix the inaccurate date from their end to resolve the issue. |
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
