@@ -62,7 +62,7 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID | UC1 | 
+| USE-CASE ID | UC1 | 
 | -------------------------------------- | ------------------- |
 | **Description** | Users can search for food hygiene ratings and find restaurants with good ratings or report a food safety issue. |
 | **Actors** | Users which can be the general public or consumers |
@@ -72,11 +72,11 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | The search should return the reuslts as quick as possible to avoid the user waiting. The app was made so that users can make quick decisions.  |
 | **Issues** | The system should have a backup source in case if Bristol Open Data API has downtime for some reason and if the servers are down it should let the user know so they are prepared for slower time in getting results. |
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+|USE-CASE ID | UC2 | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
+| **Description** | The business owner can verify that their food hygiene rating is accurate and if someone reports that their is incorrect rating, it is their responsiblity to fix the rating to make it accurate. |
+| **Actors** | Business owners and Inspectors |
+| **Assumptions** | <ul><li> The business owner has access to the food hygiene application and can look at reports to their business about their ratings. </li><li> The business owner's organisation already has an existing rating in the Bristol Open Data API database so they are responsible for updating when they have a better/lower rating. </li><li>  |
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
