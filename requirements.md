@@ -85,8 +85,8 @@ The actors and users for the food hygiene app will be:
 | **Description** | Food hygiene rating data can be implemented by developers via the Bristol Open Data API, with appropriate fallback and error-handling mechanisms. |
 | **Actors** | Web/App developer|
 | **Assumptions** | <ul><li> The developer should have access to the Bristol Open Data API and have necessary API credentials. </li><li> The API should function correctly and return data in the correct format for integration for the application.</li><li> The developer must be able to implement backup methods in case if the API fails.|
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Steps** | **<br>1** Developer registers for API access and gains login details. **<br>2** The developer integrates the API data into the apllication allowing for real-time data to be displayed.**<br>3** System then displays hygiene ratings and location on the map depending on the users filter choices or whatever is nearby if there wasn't any filter chosen.**<br>4 If the API fails, the system then switches to a backup database, the application starts loading the data from that database and displays a message syaing that the apllication has started to use the backup data source. |
+| **Variations** | If the API fails, the system starts using the backup data source and loads the backup data. |
 | **Non-functional** | Fallback data should be available without any noticeable delay if the primary database fails. |
 | **Issues** | If both the API and the backup data fail, then the app/web application should display an error message and askes the user to try again later. |
 
