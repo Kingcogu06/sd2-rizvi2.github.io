@@ -76,7 +76,7 @@ TODO: Describe each use case (at least one per team member).
 | -------------------------------------- | ------------------- |
 | **Description** | The business owner can verify that their food hygiene rating is accurate and if someone reports that their is incorrect rating, it is their responsiblity to fix the rating to make it accurate. |
 | **Actors** | Business owners and Inspectors |
-| **Assumptions** | <ul><li> The business owner has access to the food hygiene application and can look at reports to their business about their ratings. </li><li> The business owner's organisation already has an existing rating in the Bristol Open Data API database so they are responsible for updating when they have a better/lower rating. </li><li>  |
+| **Assumptions** | <ul><li> The business owner has access to the food hygiene application and can look at reports to their business about their ratings. </li><li> The business owner's organisation already has an existing rating in the Bristol Open Data API database so they are responsible for updating when they have a better/lower rating. </li><li> Business owners can reply to reports to say that they are working on the issue that the report has brought to light.  |
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
