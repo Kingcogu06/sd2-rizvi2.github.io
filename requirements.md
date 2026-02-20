@@ -89,8 +89,8 @@ TODO: Describe each use case (at least one per team member).
 | **Assumptions** | <ul><li> The developer should have access to the Bristol Open Data API and have necessary API credentials. </li><li> The API should function correctly and return data in the correct format for integration for the application.</li><li> The developer must be able to implement backup methods in case if the API fails.|
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** | Fallback data should be available without any noticeable delay if the primary database fails. |
+| **Issues** | If both the API and the backup data fail, then the app/web application should display an error message and askes the user to try again later. |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
