@@ -58,10 +58,6 @@ The actors and users for the food hygiene app will be:
 * Developer --> Responsible for creating and maintaining the database, managing corrections, handling appeals and making sure the app works properly and keeping data accurate from Bristol Open Data.
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
-
 | USE-CASE ID | UC1 | 
 | -------------------------------------- | ------------------- |
 | **Description** | Users can check food hygiene ratings, find trusted restaurants, and report any food safety problems. |
@@ -72,6 +68,7 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | The search should return the reuslts as quick as possible to avoid the user waiting. The app was made so that users can make quick decisions.  |
 | **Issues** | The system should have a backup source in case if Bristol Open Data API has downtime for some reason and if the servers are down it should let the user know so they are prepared for slower time in getting results. |
 
+
 |USE-CASE ID | UC2 | 
 | -------------------------------------- | ------------------- |
 | **Description** | The business owner can verify that their food hygiene rating is accurate and if someone reports that their is incorrect rating, it is their responsiblity to fix the rating to make it accurate. |
@@ -81,6 +78,7 @@ TODO: Describe each use case (at least one per team member).
 | **Variations** | If the business isn't found in the application, the app then shows suggested/reccommended businesses nearby.  |
 | **Non-functional** | <ul><li> The application should be available 24/7 365 days which allows consumers to report issues at anytime of the day.</li><li> The Business owners would then fix the reports as soon as posssible and can fix these anytime in the day so consumers wouldn't be confused with the inaccurate ratings. |
 | **Issues** | The system must handle situations where business data is missing or outdated, this would then be fixed through the business owner to fix the inaccurate date from their end to resolve the issue. |
+
 
 | USE-CASE ID | UC3 | 
 | -------------------------------------- | ------------------- |
