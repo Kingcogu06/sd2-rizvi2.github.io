@@ -82,11 +82,11 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | <ul><li> The application should be available 24/7 365 days which allows consumers to report issues at anytime of the day.</li><li> The Business owners would then fix the reports as soon as posssible and can fix these anytime in the day so consumers wouldn't be confused with the inaccurate ratings. |
 | **Issues** | The system must handle situations where business data is missing or outdated, this would then be fixed through the business owner to fix the inaccurate date from their end to resolve the issue. |
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| USE-CASE ID | UC3 | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
+| **Description** | Food hygiene rating data can be implemented by developers via the Bristol Open Data API, with appropriate fallback and error-handling mechanisms. |
+| **Actors** | Web/App developer|
+| **Assumptions** | <ul><li> The developer should have access to the Bristol Open Data API and have necessary API credentials. </li><li> The API should function correctly and return data in the correct format for integration for the application.</li><li> The developer must be able to implement backup methods in case if the API fails.|
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
