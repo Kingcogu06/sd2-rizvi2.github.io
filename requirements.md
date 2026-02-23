@@ -20,7 +20,7 @@ The Non-Functional requirements are:
 ## User Needs
 
 #### User stories
-As a User, I want to search for food hygiene ratings by business name, location or rating so I am able to make a good choice about where to eat.
+As a **User**, I want to search for food hygiene ratings by business name, location or rating so I am able to make a good choice about where to eat.
 
 As a User, I want the application to suggest nearby businesses if my search returns with no results so I can find alternatives. 
 
@@ -40,15 +40,15 @@ As a User, I want to naviagte through pages when there are many results so I can
 
 As a User, I want to see the total of businesses listed so I know how many options are available.
 
-As a Business Owner, I want to be proud of hygiene rating as it would encourage more people to visit the business.
+As a **Business Owner**, I want to be proud of hygiene rating as it would encourage more people to visit the business.
 
-As a Inspector, I want to be able to look at old results and enter a business with expectations.
+As a **Inspector**, I want to be able to look at old results and enter a business with expectations.
 
 As a Inspector, I want to be able to decrease the amount of paper used in documenting hygiene in these businesses.
 
 As a Inspector, I want to show my results publically while keeping parts of the result confidential for only the business owners to see.
 
-As a Developer, I want to have access to Bristol Open Data API and implement it into the application to retrieve accurate food hygiene ratings for businesses.
+As a **Developer**, I want to have access to Bristol Open Data API and implement it into the application to retrieve accurate food hygiene ratings for businesses.
 
 ### Actors
 The actors and users for the food hygiene app will be:
