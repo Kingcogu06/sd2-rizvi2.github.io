@@ -90,9 +90,6 @@ The actors and users for the food hygiene app will be:
 | **Non-functional** | Fallback data should be available without any noticeable delay if the primary database fails. |
 | **Issues** | If both the API and the backup data fail, then the app/web application should display an error message and askes the user to try again later. |
 
-
-TODO: Your Use-Case diagram should include all use-cases.
-
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 ![case diagram](https://github.com/user-attachments/assets/8abffb3d-18ee-4fef-ac65-b57a7786a7b9)
 
@@ -106,6 +103,14 @@ TODO: create a list of functional requirements.
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
+
+**FR1** - The system shall allow users to filter for food hygiene ratings using business names, locations and hygiene rating filters (1-0), UC1.
+
+**FR2** - The system shall retrieve and display food hygiene ratings from the Bristol Open Data API database, UC1.
+
+**FR3** - The system shall provide two views for displaying search results
+* Map view --> Displays businesses as markers which users can interact with to view the businesses details.
+* List view --> Displays results in a table format, including business name, location and hygiene rating.
 
 
 ### Non-Functional Requirements
