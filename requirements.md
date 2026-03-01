@@ -122,7 +122,25 @@ TODO: create a list of functional requirements.
 
 **FR7** - The system shall provide a business Name and location search tool at the top of the page to allow users to filter their results, UC1.
 
-**FR8** -
+**FR8** - The system shall update search results in real-time on the user putting partial search terms without needing a page refresh, UC1.
+
+**FR9** - If no results are found then the system:
+* Map view --> Suggests nearby businesses within the user's location if geolocation is enabled.
+* List view --> Display 'No results found' at the top of the results table, UC1.
+
+**FR10** - The system shall allow users to navigate multiple pages of results using Next and Previous buttons when many results load in, UC1.
+
+**FR11** - The system shall display the number of results at the top of the list view, UC1.    
+
+**FR12** - The system shall ensure that the List view is not interactive, it only shows the hygiene rating and a few details about the business such as name and hygiene rating, UC1.
+
+**FR13** - The system shall allow food business owners to search for their food hygiene rating by name or location, UC2.
+
+**FR14** - The system shall let users report food hygiene issues to business owners which gives them the permission to fix their food hygiene rating through a form, UC2.
+
+**FR15** - The system shall have a report a problem form for users to use, UC2.
+
+**FR16** - The system shall allow web developers to integrate and test the Bristol Open Data API database to ensure correct data is displayed, UC3.
 
 
 ### Non-Functional Requirements
