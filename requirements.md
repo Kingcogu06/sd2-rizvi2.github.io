@@ -112,6 +112,18 @@ TODO: create a list of functional requirements.
 * Map view --> Displays businesses as markers which users can interact with to view the businesses details.
 * List view --> Displays results in a table format, including business name, location and hygiene rating.
 
+**FR4** - The system shall allow users to switch between Map view and list view without losing some search results depending on the user's preference, UC1.
+
+**FR5** - The system shall provide the feature of geolocation to show nearby businesses based on the user's location.
+* If geolocation is enabled, the system will show a 'You are Here' marker at the user's location and display nearby locations within 500 metres of the user.
+* If geolocation is denied, all businesses are displayed in a list format and doesn't involve a 'You are Here' marker, UC1.
+
+**FR6** - The system shall allow users to use filters to help users define their search more easily. Works for both map view and list view, UCL.
+
+**FR7** - The system shall provide a business Name and location search tool at the top of the page to allow users to filter their results, UC1.
+
+**FR8** -
+
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
