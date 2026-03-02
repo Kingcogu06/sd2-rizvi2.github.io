@@ -15,6 +15,8 @@
 
 25/11/25 - Daniyal finsihed all the USE CASE ID tables
 
+30/11/25 - Daniyal finished all the functional requirements for the software requirement specification
+
 30/12/25 - Daniyal edited the planning sections to make it sound and flow better. Planning section is fully complete
 
 10/01/26 - Daniyal made a wireframe
