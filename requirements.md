@@ -140,8 +140,6 @@ The actors and users for the food hygiene app will be:
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 **NFR1** - The system shall be available 24/7, allowing business owners to access it at anytime, UC2.
 
