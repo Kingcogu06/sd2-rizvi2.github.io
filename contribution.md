@@ -21,6 +21,6 @@
 
 01/01/26 - Daniyal finished the requirements page
 
-10/01/26 - Daniyal made a wireframe
+10/01/26 - Daniyal made a wireframe for a website view of the application
 
-15/01/26 - Rewrote requirements for a better understanding on what is needed for the app
+
