@@ -99,10 +99,6 @@ The actors and users for the food hygiene app will be:
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
 
 **FR1** - The system shall allow users to filter for food hygiene ratings using business names, locations and hygiene rating filters (1-0), UC1.
 
@@ -147,4 +143,22 @@ TODO: create a list of functional requirements.
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
-Indicate which UC the requirement comes from.
+**NFR1** - The system shall be available 24/7, allowing business owners to access it at anytime, UC2.
+
+**NFR2** - The system shall update search results and filters without needing a page refresh, UC1.
+
+**NFR3** - Switching between Map view and List view shall be seamless and keep the same results no matter the view of the results, UC1.
+
+**NFR4** - The system shall let users know when there are API issues by displaying messages or suggesting alternatives when the API is down, UC1, UC3.
+
+**NFR5** - The system shall display an error message if the Bristol Open Data API fails and use a GeoJSON for data retrieval. Displays a message when the first database fails and informs the user that the system started using the backup database, UC1, UC3.
+
+**NFR6** - Page navigation should be responsive and efficient, allowing users to browse multiple pages without latency, UC1.
+
+**NFR7** - The system shall be able to handle large datasets effectively, the system shall be able to search, filter and navigate the results, UC1.
+
+**NFR8** - The system will be able for users and business owners to fill a form to report any issues with the database or details of the business, UC1, UC2.
+
+**NFR9** - The results map view and list view should be accessible and should work for all types of screen types, UC1.
+
+
