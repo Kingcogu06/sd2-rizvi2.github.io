@@ -22,11 +22,12 @@ Many food businesses/restaurants lack access to proper training and hygiene moni
 * Data/security concerns
 * inaccurate or manipulated data
 * system downtime to update ratings
-* legal challeges
+* legal challenges
 * limited financial sustainablity
 * negative public feedback
 * Convincing users to go to less known businesses
 * Handling large datasets to maintain quick loading times.
+* not enough available data for desired locations
 
 ## Project Scope
 The project is a food hygiene rating application that enables users to:
