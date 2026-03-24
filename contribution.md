@@ -18,7 +18,11 @@
 
 30/11/25 - Daniyal finished all the functional requirements for the software requirement specification
 
-30/12/25 - Daniyal edited the planning sections to make it sound and flow better. Planning section is fully complete
+1/01/26 - Mwelwa added more fucnctional reqirements on top of daniyals for the software requirement specification.
+
+30/12/25- Daniyal edited the planning sections to make it sound and flow better. Planning section is fully complete
+
+31/12/25 - Mwelwa added to the planning section and edited the grammar and spelling. planning complete 
 
 01/01/26 - Daniyal finished the requirements page
 
