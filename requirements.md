@@ -13,7 +13,7 @@ The Non-Functional requirements are:
 * Performance -> Fast loading of search results and data for said results.
 * Scalablity -> Handle large datasets for the food businesses.
 * Reliablity -> Data should be accurate and updated frequently.
-* Compatiblity -> Available on IOS, Android and web platforms.
+* Compatiblity -> Available and working on current IOS, Android and web platforms.
 * Accessiblity -> Meet accessiblity standards.
 * Screen size --> Must accommodate all screen sizes for the device that is being used.
 
@@ -41,6 +41,7 @@ As a **User**, I want to naviagte through pages when there are many results so I
 As a **User**, I want to see the total of businesses listed so I know how many options are available.
 
 As a **Business Owner**, I want to be proud of hygiene rating as it would encourage more people to visit the business.
+As a **Business Owner**, I want to be attract more customers to my business by having a high rating in food hygiene.
 
 As a **Inspector**, I want to be able to look at old results and enter a business with expectations.
 
