@@ -1,4 +1,4 @@
-# Food Hygiene Rating App - GrubGrade or SafeBite
+# Food Hygiene Rating App - GrubGrade 
 The two names I have thought of for our webiste is GrubGrade or SafeBite
 
 ## About this Application
