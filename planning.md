@@ -37,7 +37,7 @@ The project is a food hygiene rating application that enables users to:
 * Access real life data from Bristol Open Data API with a backup data source
 
 
-![Insert your Context Diagram Here](images/context.png)  Mwelwa chisea <img width="783" height="514" alt="image" src="https://github.com/user-attachments/assets/40bcb424-d721-4626-ac45-43a56fca7639" />
+![Insert your Context Diagram Here](images/context.png)  Mwelwa chisesa <img width="783" height="514" alt="image" src="https://github.com/user-attachments/assets/40bcb424-d721-4626-ac45-43a56fca7639" />
 
 <img width="859" height="297" alt="image" src="https://github.com/user-attachments/assets/d2ed170c-1b14-4411-88f7-e012c729a0b6" />
 
