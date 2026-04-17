@@ -1,7 +1,7 @@
 # Requirements
 ## Functional Requirements 
 The Functional Requirements that the food hygiene app have are:
-* Search functionality -> Users are able to search for food businesses by name, location or cuisine.
+* Search functionality -> Users are able to search for food businesses by name, hygiene rating, location or cuisine.
 * Food hygiene ratings -> Display offical food hygiene scores.
 * Inspector details -> Show inspection data e.g. date, reason and notes.
 * Map integration -> Interactive apps to locate nearby business with ratings and filters.
