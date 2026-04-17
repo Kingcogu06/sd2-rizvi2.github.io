@@ -93,6 +93,7 @@ The actors and users for the food hygiene app will be:
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 ![case diagram](https://github.com/user-attachments/assets/8abffb3d-18ee-4fef-ac65-b57a7786a7b9)
+The Case diagram shows 
 
 <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b79785e1-ae18-41d8-8ea0-d9e042569ed6" />
 
