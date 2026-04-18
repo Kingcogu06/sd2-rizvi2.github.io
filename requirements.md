@@ -121,6 +121,29 @@ Developers can use the application for these reasons:
 
 
 <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b79785e1-ae18-41d8-8ea0-d9e042569ed6" />
+The Case diagram aboves shows it will show how these people will interact with the app and what reasons they will use the app for.
+
+The Food Handler will use the application for these reasons:
+- Complete hygiene checklists
+- Report food safety issues
+- Access training guidelines
+- See Inspections reports
+
+The Manager/Supervisor will use the application for these reasons:
+- Oversight of employees
+- Operational management
+- Food safety reports
+
+The System admin will use the application for these reasons:
+-Manage user's accounts
+Manage database
+Manage data updates
+Keep the system updated for users to use effciently 
+
+The Health inspector will use the application for these reasons:
+- Views inspection reports
+- Schedules inspections
+- Manage and updates reports which leads to higher or lower hygiene ratings
 
 
 
