@@ -93,7 +93,8 @@ The actors and users for the food hygiene app will be:
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 ![case diagram](https://github.com/user-attachments/assets/8abffb3d-18ee-4fef-ac65-b57a7786a7b9)
-The Case diagram shows all the reasons that the users can use the app for. Customers/Consumers can use the application for these reasons:
+The Case diagram shows all the reasons that the users can use the app for. 
+Customers/Consumers can use the application for these reasons:
 - To register and login
 - Search for food businesses by location, cuisine, name and hygiene rating
 - View hygiene ratings of restaurants
