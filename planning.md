@@ -38,6 +38,17 @@ The project is a food hygiene rating application that enables users to:
 
 
 ![Insert your Context Diagram Here](images/context.png)  Mwelwa chisesa <img width="783" height="514" alt="image" src="https://github.com/user-attachments/assets/40bcb424-d721-4626-ac45-43a56fca7639" />
+The Context diagram aboves shows what we want the application to contain and the features the app will have. 
+
+The features that the app will have are:
+- Business ratings and search, this will display ratings and allow users to search for food businesses
+- Government database, provides official inspection and hygiene data
+- User reports, consumers can submit hygiene and safety reports
+- Server system, handles bugs/fixes/updates for the application
+- Server system, handles app funcitonalities and data storage for the hygiene ratings for each of the food businesses
+- Consumers, search for food businesses, view ratings and report issues
+- Search and filters, enables search phrases and filtering options
+- Maps and GPS, guides users to food businesses using geolocation
 
 <img width="859" height="297" alt="image" src="https://github.com/user-attachments/assets/d2ed170c-1b14-4411-88f7-e012c729a0b6" />
 
