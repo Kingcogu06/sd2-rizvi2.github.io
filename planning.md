@@ -51,4 +51,14 @@ The features that the app will have are:
 - Maps and GPS, guides users to food businesses using geolocation
 
 <img width="859" height="297" alt="image" src="https://github.com/user-attachments/assets/d2ed170c-1b14-4411-88f7-e012c729a0b6" />
+The Context diagram shows the features that the app will have.
 
+These are the features that the app will contain:
+- Consumers/customers will interact with the app to view food hygiene ratings for businesses which will help indecisiveness of where to eat for some people
+- Search phrases, filters and favourites which allows for people to navigate the application and allows to favourite food businesses so it saves what people's favourites places to eat are
+- The application needs to accommodate different types of screen sizes that allows the application to be more accessible
+- Geolocation is enabled to help guide customers to different food businesses with hygiene ratings that is close to them
+- Government official food database which provides official inspection results and reason for the scoring
+- Displays ratings and able to search businesses by food businesses, cuisine, location or hygiene rating
+- User reports which allows consumers to report any issues with food businesses
+- Server infrastructure which allows memory to be used to contain reviews from customers and complaints from users
