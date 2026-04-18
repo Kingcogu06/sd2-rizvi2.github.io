@@ -93,7 +93,30 @@ The actors and users for the food hygiene app will be:
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
 ![case diagram](https://github.com/user-attachments/assets/8abffb3d-18ee-4fef-ac65-b57a7786a7b9)
-The Case diagram shows 
+The Case diagram shows all the reasons that the users can use the app for. Customers/Consumers can use the application for these reasons:
+- To register and login
+- Search for food businesses by location, cuisine, name and hygiene rating
+- View hygiene ratings of restaurants
+- Report hygiene problems of restaurants
+
+Business Owners can use the application for these reasons:
+- Register to manage their business
+- Upload their hygiene reports so that the app can update their ratings if their ratings go down or go up.
+- Responds to customers complaints and reassure them
+- Be able to view inspection outcomes
+
+Food hygiene inspectors can use the application for these reasons:
+- Performs official inspections of the food businesses
+- Uploads the reports to the app so that the ratings can be updated
+- Assign hygiene scores
+
+Developers can use the application for these reasons:
+- Maintains the system
+- Handles the bugs, fixes and updates and lag that the system may occur
+- Manages the API database
+  
+
+
 
 <img width="1920" height="2560" alt="image" src="https://github.com/user-attachments/assets/b79785e1-ae18-41d8-8ea0-d9e042569ed6" />
 
