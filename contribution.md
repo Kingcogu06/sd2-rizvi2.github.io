@@ -30,4 +30,6 @@
 
 10/01/26 - Daniyal described what the wireframe means 
 
+13/01/26 - Daniyal finished all the wireframes and what each wireframe means
+
 
