@@ -26,6 +26,8 @@
 
 01/01/26 - Daniyal finished the requirements page
 
-10/01/26 - Daniyal made a wireframe for a website view of the application
+05/01/26 - Dnaiyal started making wireframe for the application
+
+10/01/26 - Daniyal described what the wireframe means 
 
 
