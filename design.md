@@ -29,7 +29,17 @@ This helps users to narrow down down results based on quality, proximty and pref
 The map panel on the left side of the page shows location pins for the results. There are options to hide the map. This gives geographical context so that customers can see places that are close to the users' proximity. The results list is the main context of the page and this shown through result cards. The result card shows the businesses' name, the type of food they serve, the distance from the user, the hygienic rating and the last inspection date. This is showing the users all the key information the user requires and if the user needs more details, there is a view details button for the user to look more into the business. At the bottom of the page, there is a card for alerts and notifications which highlights important updates which show which businesses recently downgraded and businesses with low ratings in their area. This keeps the user informed about risks and changes in their area.
 
 <img width="811" height="645" alt="image" src="https://github.com/user-attachments/assets/152872f0-4f55-4682-89da-5d8405a1ef4d" />
+The Report a problem page is shown above.
 
+The page title is there to encourage users to submit reports so that companies can answer them quickly and try to improve their business. The find the business is the first step in the form, Users can use the search bar to find the business by their name or location. The use my location button helps to find the businesses within their proximity.
+
+The next step of the form is caterogising the report into one of these catergories:
+- Food safety issue
+- Pest sighting
+- Illness after eating or
+- Other ( The user can write what the reason for the report is)
+
+The text box under is what describes the issue. The user is encouraged to explain what happened in detail and the context of what happend or what they saw. The user is to put their details if they want to be known for their report but there is an option to report anonymously but this doesn't allow follow up if needed. Reports reviewed by local authorities and false reporting may have consequences. This helps to build trust and punishes misuse.
 
 
 
