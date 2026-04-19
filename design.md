@@ -13,6 +13,21 @@ The top left shows the logo of the company and the name of the company for brand
 
 <img width="628" height="629" alt="image" src="https://github.com/user-attachments/assets/8db35c84-a148-41d8-ada0-a2607a2aa768" />
 
+The Find a rating page wireframe is shown above.
+
+At the top of the page, users can search for businesses by business name, cuisine or postcode. There is also a 'use my location' button which can be used to reveal markers on the map which show nearby businesses. 
+
+Below the search bar, there are filtering and sorting options:
+- Minimum rating
+- Distance
+- Type of business
+- Sort by
+- Clear filters button
+This helps users to narrow down down results based on quality, proximty and preferences.
+
+The map panel on the left side of the page shows location pins for the results. There are options to hide the map. This gives geographical context so that customers can see places that are close to the users' proximity. The results list is the main context of the page and this shown through result cards. The result card shows the businesses' name, the type of food they serve, the distance from the user, the hygienic rating and the last inspection date. This is showing the users all the key information the user requires and if the user needs more details, there is a view details button for the user to look more into the business. At the bottom of the page, there is a card for alerts and notifications which highlights important updates which show which businesses recently downgraded and businesses with low ratings in their area. This keeps the user informed about risks and changes in their area.
+
+
 
 
 
