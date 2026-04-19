@@ -38,7 +38,7 @@ The next step of the form is caterogising the report into one of these catergori
 
 The text box under is what describes the issue. The user is encouraged to explain what happened in detail and the context of what happend or what they saw. The user is to put their details if they want to be known for their report but there is an option to report anonymously but this doesn't allow follow up if needed. Reports reviewed by local authorities and false reporting may have consequences. This helps to build trust and punishes misuse.
 
-**Features**
+## Features
 
 
 
