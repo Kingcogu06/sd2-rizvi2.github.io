@@ -28,6 +28,7 @@ This helps users to narrow down down results based on quality, proximty and pref
 
 The map panel on the left side of the page shows location pins for the results. There are options to hide the map. This gives geographical context so that customers can see places that are close to the users' proximity. The results list is the main context of the page and this shown through result cards. The result card shows the businesses' name, the type of food they serve, the distance from the user, the hygienic rating and the last inspection date. This is showing the users all the key information the user requires and if the user needs more details, there is a view details button for the user to look more into the business. At the bottom of the page, there is a card for alerts and notifications which highlights important updates which show which businesses recently downgraded and businesses with low ratings in their area. This keeps the user informed about risks and changes in their area.
 
+<img width="811" height="645" alt="image" src="https://github.com/user-attachments/assets/152872f0-4f55-4682-89da-5d8405a1ef4d" />
 
 
 
