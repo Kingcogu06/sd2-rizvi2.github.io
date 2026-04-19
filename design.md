@@ -38,6 +38,11 @@ The next step of the form is caterogising the report into one of these catergori
 
 The text box under is what describes the issue. The user is encouraged to explain what happened in detail and the context of what happend or what they saw. The user is to put their details if they want to be known for their report but there is an option to report anonymously but this doesn't allow follow up if needed. Reports reviewed by local authorities and false reporting may have consequences. This helps to build trust and punishes misuse.
 
+<img width="646" height="623" alt="image" src="https://github.com/user-attachments/assets/c70aba32-76ea-41c3-b300-21a4a61dbc91" />
+This page is for businesses', this is for businesses to see their inspection hygiene rating and when they were last inspcted.
+
+There is a rating card which shows the businesses' focal point of the dashboard, it displays the hygiene rating for the business. It includes the last inspection date and a view full detail button so the owner can see exactly see why they lost points and the reason they got the hygiene rating. The trend chart shows the business' rating over time, it allows the owner to visual patterns such as seeing their hygiene standards dip during busy seasons or improve after their staff training. The key tasks is the owner's to-do-list and shows deadlines, this turns the app into a management platform as well. There is a get an inspection button which allows the owner to request a re-inspection if they believed they have fixed their old mistakes and want to upgrade their score. There is a competitive map on the left which shows the company's competitors which is there to motivate the owners. There is an alter for business which notifies the owner when a competitor gets a 5 hygiene rating or when the local council updates their guidelines/regulations
+
 
 
 
