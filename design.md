@@ -36,7 +36,7 @@ The next step of the form is caterogising the report into one of these catergori
 - Illness after eating or
 - Other ( The user can write what the reason for the report is)
 
-The text box under is what describes the issue. The user is encouraged to explain what happened in detail and the context of what happend or what they saw. The user is to put their details if they want to be known for their report but there is an option to report anonymously but this doesn't allow follow up if needed. Reports reviewed by local authorities and false reporting may have consequences. This helps to build trust and punishes misuse.
+The text box under is what describes the issue. The user is encouraged to explain what happened in detail and the context of what happend or what they saw. The user is to put their details if they want to be known for their report but there is an option to report anonymously but this doesn't allow follow up if needed. Reports reviewed by local authorities and false reporting may have consequences. This helps to build trust and punishes misuse. After a report is submitted, a message pops ups to confirm that the report has been submitted to the local authorities
 
 <img width="646" height="623" alt="image" src="https://github.com/user-attachments/assets/c70aba32-76ea-41c3-b300-21a4a61dbc91" />
 This page is for businesses', this is for businesses to see their inspection hygiene rating and when they were last inspcted.
