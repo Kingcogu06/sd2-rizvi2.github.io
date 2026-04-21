@@ -26,10 +26,10 @@
 
 01/01/26 - Daniyal finished the requirements page
 
-05/01/26 - Dnaiyal started making wireframe for the application
+05/01/26 - Dnaiyal and Mwelwa started making wireframe for the application
 
-10/01/26 - Daniyal described what the wireframe means 
+10/01/26 - Daniyal and Mwelwa  described what the wireframe means 
 
-13/01/26 - Daniyal finished all the wireframes and what each wireframe means
+13/01/26 - Daniyal and Mwelwa finished all the wireframes and what each wireframe means
 
 
