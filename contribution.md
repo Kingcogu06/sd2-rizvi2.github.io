@@ -26,13 +26,13 @@
 
 01/01/26 - Daniyal finished the requirements page
 
-05/01/26 - Daniyal coded for the home page of the wireframe in Vscode
-
 05/01/26 - Dnaiyal and Mwelwa started making wireframe for the application
 
 10/01/26 - Daniyal and Mwelwa  described what the wireframe means 
 
 13/01/26 - Daniyal and Mwelwa finished all the wireframes and what each wireframe means
+
+16/01/26 - Daniyal coded for the home page of the wireframe in Vscode
 
 20/01/26 - Daniyal added a json file that shows restaurants around Bristol
 
