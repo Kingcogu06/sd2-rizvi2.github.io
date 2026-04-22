@@ -1,7 +1,7 @@
 # Implementation
 
 ## Introduction
-TODO: This web application lets users look up food businesses in Bristol and check their Food Hygiene Rating. By typing a business name into the search bar, the app sends a live request to the Bristol Open Data API and returns any matching businesses, along with their rating and the date they were last inspected.
+This web application lets users look up food businesses in Bristol and check their Food Hygiene Rating. By typing a business name into the search bar, the app sends a live request to the Bristol Open Data API and returns any matching businesses, along with their rating and the date they were last inspected.
 
 The information comes from the Bristol Open Data portal, which publishes data collected by Bristol City Council as part of the national Food Hygiene Rating Scheme (FHRS). The scheme is run by the Food Standards Agency and enforced by local authorities. The dataset includes a wide range of  Bristol—restaurants, cafés, takeaways, supermarkets, and other places that handle food. Each entry includes the business name, a hygiene rating from 0 to 5, and the date of the most recent inspection. These three fields (BUSINESS_NAME, RATING, and RATING_DATE) are the ones the application  displays. 
 
