@@ -17,6 +17,16 @@ Many food businesses/restaurants lack access to proper training and hygiene moni
 ### Options Considered
  Consumers can directly check offical databases such as the UK Food Standards Agency (FSA) hygiene rating site. This is quite reliable and up-to-date however, it is not convenient and isn't user friendly as an app. Restaurant reviews are often include hygiene comments or ratings from personal experiences from customers. The only potential con I can see at the moment is that from this perspective is that it is not offical ratings so can be misleading. Third party apps may show food ratings that are often inaccurate and are not regularly updated which makes them unreliable.
 
+ ### Stakeholders
+ A stakeholder is any individual, group or organisation that can affect or be affected by the actions, goals and policies of a business or project.
+| First Header  | Second Header | | First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ### Expected Risks
 * Low user adoption
 * Data/security concerns
