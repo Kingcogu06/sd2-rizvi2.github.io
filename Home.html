@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GrubGrade – Find Food Hygiene Ratings</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1a2e4a;
+    --blue: #2563a8;
+    --blue-light: #3b7dd8;
+    --accent: #4a90d9;
+    --bg: #f7f8fa;
+    --white: #ffffff;
+    --border: #dde3ec;
+    --text: #2d3748;
+    --muted: #6b7a90;
+    --footer-bg: #eef1f6;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 58px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: var(--navy);
+    text-decoration: none;
+  }
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--border);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-size: 18px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--navy); }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .lang-select {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-family: inherit;
+    color: var(--text);
+    background: var(--white);
+    cursor: pointer;
+  }
+
+
+  .hero {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .hero-text h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid var(--border);
+    border-radius: 6px;
+    background: var(--white);
+    overflow: hidden;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+
+  .search-bar:focus-within { border-color: var(--blue); }
+
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 11px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--text);
+    background: transparent;
+  }
+
+  .search-bar input::placeholder { color: var(--muted); }
+
+  .search-bar button {
+    background: none;
+    border: none;
+    padding: 0 14px;
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-near {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--blue);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .hero-image {
+    background: #e8ecf2;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b0bac8;
+    font-size: 48px;
+  }
+
+  /* ── HOW RATINGS WORK ── */
+  .ratings-section {
+    max-width: 1100px;
+    margin: 48px auto;
+    padding: 0 32px;
+  }
+
+  .ratings-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .ratings-section > p {
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+
+  .ratings-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .rating-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 12px 16px;
+    text-align: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .rating-card:hover {
+    box-shadow: 0 4px 18px rgba(37,99,168,0.10);
+    transform: translateY(-2px);
+  }
+
+  .rating-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #dde3ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 auto 12px;
+    font-family: 'DM Serif Display', serif;
+  }
+
+  .rating-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+
+  .rating-desc {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  .learn-more-btn {
+    display: block;
+    margin: 0 auto;
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 11px 28px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .learn-more-btn:hover { background: var(--navy); }
+
+  /* ── ABOUT ── */
+  .about-section {
+    max-width: 1100px;
+    margin: 0 auto 48px;
+    padding: 0 32px;
+  }
+
+  .about-section h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+
+  .about-section p {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-width: 680px;
+  }
+
+  /* ── MAP PLACEHOLDER ── */
+  .map-placeholder {
+    background: repeating-linear-gradient(
+      45deg,
+      #eef1f6,
+      #eef1f6 10px,
+      #e5e9f0 10px,
+      #e5e9f0 20px
+    );
+    height: 120px;
+    margin: 0 32px 0;
+    max-width: calc(1100px - 0px);
+    margin: 0 auto;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--footer-bg);
+    border-top: 1px solid var(--border);
+    padding: 24px 32px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.2s, border-color 0.2s;
+    text-decoration: none;
+  }
+
+  .footer-icon:hover { color: var(--blue); border-color: var(--blue); }
+
+  @media (max-width: 700px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-image { display: none; }
+    .ratings-grid { grid-template-columns: repeat(3, 1fr); }
+    nav { padding: 0 16px; }
+    .hero, .ratings-section, .about-section { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="logo-icon">🖼</div>
+    GrubGrade
+  </a>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Find a rating</a></li>
+    <li><a href="#">For Business</a></li>
+    <li><a href="#">Report a problem</a></li>
+  </ul>
+  <div class="nav-right">
+    <select class="lang-select">
+      <option>English</option>
+      <option>Welsh</option>
+      <option>French</option>
+    </select>
+  </div>
+</nav>
+
+
+<div style="background: var(--white); border-bottom: 1px solid var(--border);">
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Find Food Hygiene ratings<br>in your area</h1>
+      <p>Search for businesses and view their food hygiene ratings</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Enter Business name, address, cuisine or postcode">
+        <button aria-label="Search">🔍</button>
+      </div>
+      <span class="search-near">📍 Search near me</span>
+    </div>
+    <div class="hero-image">🖼</div>
+  </div>
+</div>
+
+<!-- HOW RATINGS WORK -->
+<section class="ratings-section">
+  <h2>How Ratings work</h2>
+  <p>Food businesses are rated on how hygienically they prepare, handle and cook food</p>
+
+  <div class="ratings-grid">
+    <div class="rating-card">
+      <div class="rating-circle">0</div>
+      <div class="rating-label">Urgent Improvement necessary</div>
+      <div class="rating-desc">Major improvement is needed</div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-circle">1</div>
+      <div class="rating-label">Major Improvement necessary</div>
+      <div class="rating-desc">Significant improvement needed</div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-circle">2</div>
+      <div class="rating-label">Improvement necessary</div>
+      <div class="rating-desc">Some improvement is required</div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-circle">3</div>
+      <div class="rating-label">Generally satisfactory</div>
+      <div class="rating-desc">Standards are broadly met</div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-circle">4</div>
+      <div class="rating-label">Good</div>
+      <div class="rating-desc">Standards are good</div>
+    </div>
+    <div class="rating-card">
+      <div class="rating-circle">5</div>
+      <div class="rating-label">Very Good</div>
+      <div class="rating-desc">Standards are very good</div>
+    </div>
+  </div>
+
+  <button class="learn-more-btn">Learn more about the rating scheme</button>
+</section>
+
+<section class="about-section">
+  <h2>About us</h2>
+  <p>Praetexa, ex culpe non inventes unum ast non accusatis unum. Et nihil nullam. Nemo nocere tibi erit, et non inimicos, et ne illa laederentur.</p>
+  <p>Tanta potere igitur, ne sineros memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differem, et ad cetera munera.</p>
+</section>
+
+<!-- MAP STRIP -->
+<div class="map-placeholder"></div>
+
+<!-- FOOTER -->
+<footer>
+  <a class="footer-icon" href="#" title="WhatsApp">💬</a>
+  <a class="footer-icon" href="#" title="Instagram">📷</a>
+  <a class="footer-icon" href="#" title="LinkedIn">💼</a>
+  <a class="footer-icon" href="#" title="Messenger">✉️</a>
+  <a class="footer-icon" href="#" title="Pinterest">📌</a>
+  <a class="footer-icon" href="#" title="Twitter">🐦</a>
+</footer>
+
+</body>
+</html>
