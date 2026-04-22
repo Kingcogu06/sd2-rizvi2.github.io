@@ -33,6 +33,7 @@
 13/01/26 - Daniyal and Mwelwa finished all the wireframes and what each wireframe means
 
 16/01/26 - Daniyal coded for the home page of the wireframe in Vscode
+
 22/04/26 Mwelwa created an mvp and completed the introduction section of implementation.
 20/01/26 - Daniyal added a json file that shows restaurants around Bristol
 
