@@ -8,9 +8,20 @@ The information comes from the Bristol Open Data portal, which publishes data co
 There are a few limitations worth noting. The ratings shown are based on the most recent inspection recorded in the dataset, but the data may not always show the  latest inspection if updates haven’t yet been published. Some entries also contain missing or null values, which can lead to incomplete results. The dataset only covers businesses within the Bristol local  area, so anything outside that  won’t appear. To keep the interface simple, the app limits results to the first 20 matches, so additional businesses beyond that won’t be shown. Finally, the application needs to be run from a web server (such as GitHub Pages or VS Code Live Server).
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it.
-provide a table listing the number of jslint warnings/reports for each module.
 
+| File        | Role                                                                 |
+|-------------|----------------------------------------------------------------------|
+| index.html  | The main page of the application. Defines the structure and 
+               content of the user interface, including the search input, 
+               button, result card, and multiple results list.          |
+| style.css   | Contains all visual styling for the application, including layout and 
+               colours       |
+| script.js   | Contains all JavaScript logic, including building and sending the API 
+               query to Bristol Open Data, handling the JSON response, 
+               and  updating the page with results or error 
+               messages.   
+
+               jslint warnings = 24
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
