@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristol Food Hygiene Ratings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <h1 class="app-title">&#127869; grub grade</h1>
+        <p class="app-subtitle">Search for any business in Bristol to view their hygiene rating</p>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="e.g. Greggs, Tesco, Nandos..." />
+            <button id="searchBtn" onclick="searchRating()">Get Rating</button>
+        </div>
+
+        <div id="errorMsg" class="error-msg" style="display:none;"></div>
+        <div id="loadingMsg" class="loading-msg" style="display:none;">Searching...</div>
+
+        <div id="resultCard" class="result-card" style="display:none;">
+            <div id="ratingBadge" class="rating-badge"></div>
+            <h2 id="businessName" class="business-name"></h2>
+            <p id="ratingDate" class="rating-date"></p>
+            <p id="ratingLabel" class="rating-label"></p>
+        </div>
+
+        <div id="multipleResults" class="multiple-results" style="display:none;">
+            <h3 class="results-heading">Multiple results found — select one:</h3>
+            <ul id="resultsList" class="results-list"></ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
