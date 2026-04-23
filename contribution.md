@@ -38,7 +38,9 @@
 
 20/03/26 - Daniyal added a json file that shows restaurants around Bristol
 
-22/04/26 Mwelwa created an mvp and completed the introduction section of implementation.
+22/04/26 - Mwelwa created an mvp and completed the introduction section of implementation.
+
+23/04/26 - Daniyal checked over the first three stages again to make sure everything is complete
 
 
 
