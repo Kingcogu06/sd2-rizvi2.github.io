@@ -7,6 +7,19 @@ The information comes from the Bristol Open Data portal, which publishes data co
 
 There are a few limitations worth noting. The ratings shown are based on the most recent inspection recorded in the dataset, but the data may not always show the  latest inspection if updates haven’t yet been published. Some entries also contain missing or null values, which can lead to incomplete results. The dataset only covers businesses within the Bristol local  area, so anything outside that  won’t appear. To keep the interface simple, the app limits results to the first 20 matches, so additional businesses beyond that won’t be shown. Finally, the application needs to be run from a web server (such as GitHub Pages or VS Code Live Server).
 
+## Dataset
+The application uses a GeoJSON dataset:
+- There is the Food_Hygiene_Ratings.geojson which contains the information about the businesses, their hygiene ratings and their inspection dates/reaosns for their score. This is the main dataset for the website.
+- Backup_Food_Hygiene_Ratings.geojson is the backup dataset and this boots up when the main dataset has an error and is unavailable at the time. This lets the application to continue to function even though the main datasset fails. This allows the application to always run even though the main dataset has an error or fails.
+
+## Limitations 
+The limitations of the dataset are:
+- A business could improve or decline after an inspection so the data may be outdated so their might be delays in logging in new hygiene ratings.
+- Some businesses are inspected more than others as high risk businesses will gain more visits than low-risk ones. So the lower the hygiene score, the higher of frequency of inspections.
+- Inspectors follow guidelines but judgement can vary between each food inspector, this introduces human bias as every thinks differently.
+- Not all businesses are included as some businesses will be run from people's homes or can be temporary businesses such as food trucks.
+
+
 ## Project Structure
 
 | File        | Role                                                                 |
@@ -22,6 +35,8 @@ There are a few limitations worth noting. The ratings shown are based on the mos
                messages.   
 
                jslint warnings = 24
+
+    
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
