@@ -39,6 +39,8 @@ The limitations of the dataset are:
     
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+<img width="1059" height="297" alt="image" src="https://github.com/user-attachments/assets/f874ff53-c6d3-4d80-991b-598a23cc7c82" />
+
 
 ![Insert your component Diagram here](images/component.png)
 
