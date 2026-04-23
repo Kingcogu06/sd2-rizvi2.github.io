@@ -1,6 +1,5 @@
 # Design
 
-## User Interface design
 ## Home Page
 
 <img width="706" height="637" alt="image" src="https://github.com/user-attachments/assets/9bab54cc-d632-4e31-9521-ab0866d25329" />
