@@ -46,7 +46,15 @@ The text box under is what describes the issue. The user is encouraged to explai
 This page is for businesses', this is for businesses to see their inspection hygiene rating and when they were last inspcted.
 
 There is a rating card which shows the businesses' focal point of the dashboard, it displays the hygiene rating for the business. It includes the last inspection date and a view full detail button so the owner can see exactly see why they lost points and the reason they got the hygiene rating. The trend chart shows the business' rating over time, it allows the owner to visual patterns such as seeing their hygiene standards dip during busy seasons or improve after their staff training. The key tasks is the owner's to-do-list and shows deadlines, this turns the app into a management platform as well. There is a get an inspection button which allows the owner to request a re-inspection if they believed they have fixed their old mistakes and want to upgrade their score. There is a competitive map on the left which shows the company's competitors which is there to motivate the owners. There is an alter for business which notifies the owner when a competitor gets a 5 hygiene rating or when the local council updates their guidelines/regulations
+
 <img width="730" height="657" alt="image" src="https://github.com/user-attachments/assets/1ab89ad7-3ebc-4b3d-a73a-0c3b9e521f8d" /> USE case scenaro one depicts the user viewing they hygine rating and having the option to report a problem.
+## User Interface design (UI)
+The user interface for the food hygiene rating application is designed to be a simple and accessible on all screen sizes. The application allows consumers to search for food hygiene ratings for food businesses.
+## Key Sections of the wireframes
+# Header
+The header section has the title of the application which is 'GrubGrade' and has the description of the role of the website. There is an image which is used as the company's branding, this logo represents what the company does and represents the business. 
+# Report a problem form
+This lets users report issues about a business through a form. The users can report food safety issues, unregistered businesses and food-related crimes. The forms are designed to have clear placeholder labels so users known what to put into each section to be able to report their problem. After the form is submitted, there is a message displaying that the report has sucessfully been submitted.
 
 
 
