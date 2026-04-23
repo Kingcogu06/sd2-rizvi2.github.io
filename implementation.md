@@ -53,7 +53,8 @@ Our applicayion sources the dataset from the Bristol Open Data API. The dataset 
 To make sure the dataset does not fail, the webiste includes a backup data loading mechanism. If the primary dataset is unavailable then the application would load the data from backup json file. This backup option ensures that the app remains functional and is available 24/7 and 365 days a year.
 
 ![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
+<img width="302" height="299" alt="image" src="https://github.com/user-attachments/assets/c91dd8e3-036d-43c8-9a4d-356f6e6278f7" />
+
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
