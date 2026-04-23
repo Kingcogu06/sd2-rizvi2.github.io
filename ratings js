@@ -1,0 +1,132 @@
+var API_URL = "https://maps2.bristol.gov.uk/server2/rest/services/ext/food/MapServer/0/query";
+
+// Map numeric ratings to a label and badge colour
+function getRatingInfo(rating) {
+    var map = {
+        "5": { label: "Very Good",    colour: "#27ae60" },
+        "4": { label: "Good",          colour: "#82c341" },
+        "3": { label: "Generally Satisfactory", colour: "#f1c40f" },
+        "2": { label: "Improvement Necessary",  colour: "#e67e22" },
+        "1": { label: "Major Improvement Necessary", colour: "#e74c3c" },
+        "0": { label: "Urgent Improvement Necessary", colour: "#c0392b" }
+    };
+    return map[String(rating)] || { label: "Rating: " + rating, colour: "#7f8c8d" };
+}
+
+function formatDate(dateStr) {
+    if (!dateStr) { return "Date unknown"; }
+    var d = new Date(dateStr);
+    if (isNaN(d.getTime())) { return dateStr; }
+    return "Last inspected: " + d.toLocaleDateString("en-GB", {
+        day: "numeric", month: "long", year: "numeric"
+    });
+}
+
+function showCard(feature) {
+    var attrs   = feature.attributes;
+    var name    = attrs.BUSINESS_NAME || "Unknown business";
+    var rating  = attrs.RATING;
+    var date    = attrs.RATING_DATE;
+    var info    = getRatingInfo(rating);
+
+    document.getElementById("multipleResults").style.display = "none";
+    document.getElementById("errorMsg").style.display        = "none";
+
+    var badge = document.getElementById("ratingBadge");
+    badge.textContent         = (rating !== null && rating !== undefined) ? rating : "?";
+    badge.style.backgroundColor = info.colour;
+
+    document.getElementById("businessName").textContent = name;
+    document.getElementById("ratingDate").textContent   = formatDate(date);
+    document.getElementById("ratingLabel").textContent  = info.label;
+
+    document.getElementById("resultCard").style.display = "flex";
+}
+
+function showMultiple(features) {
+    var list = document.getElementById("resultsList");
+    list.innerHTML = "";
+
+    features.forEach(function (f) {
+        var li  = document.createElement("li");
+        var btn = document.createElement("button");
+        var a   = f.attributes;
+        btn.textContent = a.BUSINESS_NAME + "  —  Rating: " + a.RATING;
+        btn.onclick = function () { showCard(f); };
+        li.appendChild(btn);
+        list.appendChild(li);
+    });
+
+    document.getElementById("resultCard").style.display      = "none";
+    document.getElementById("multipleResults").style.display = "block";
+}
+
+function handleResults(json) {
+    var loading = document.getElementById("loadingMsg");
+    var errDiv  = document.getElementById("errorMsg");
+    loading.style.display = "none";
+
+    if (!json.features || json.features.length === 0) {
+        errDiv.textContent    = "No businesses found with that name. Try a different search.";
+        errDiv.style.display  = "block";
+        document.getElementById("resultCard").style.display      = "none";
+        document.getElementById("multipleResults").style.display = "none";
+        return;
+    }
+
+    if (json.features.length === 1) {
+        showCard(json.features[0]);
+    } else {
+        showMultiple(json.features);
+    }
+}
+
+function searchRating() {
+    var input   = document.getElementById("searchInput").value.trim();
+    var errDiv  = document.getElementById("errorMsg");
+    var loading = document.getElementById("loadingMsg");
+
+    // Reset
+    errDiv.style.display  = "none";
+    document.getElementById("resultCard").style.display      = "none";
+    document.getElementById("multipleResults").style.display = "none";
+
+    if (!input) {
+        errDiv.textContent   = "Please enter a business name to search.";
+        errDiv.style.display = "block";
+        return;
+    }
+
+    // Build query — ArcGIS LIKE is case-insensitive by default on this server
+    var where   = "BUSINESS_NAME LIKE '%" + input.replace(/'/g, "''") + "%'";
+    var params  = "where=" + encodeURIComponent(where) +
+                  "&outFields=BUSINESS_NAME,RATING,RATING_DATE" +
+                  "&outSR=4326&f=json&resultRecordCount=20";
+
+    loading.style.display = "block";
+
+    fetch(API_URL + "?" + params)
+        .then(function (res) { return res.json(); })
+        .then(function (json) {
+            // ArcGIS returns an error object if the query itself failed
+            if (json.error) {
+                loading.style.display = "none";
+                errDiv.textContent    = "API error: " + json.error.message;
+                errDiv.style.display  = "block";
+                return;
+            }
+            handleResults(json);
+        })
+        .catch(function (err) {
+            loading.style.display = "none";
+            errDiv.textContent    = "Could not connect to the Bristol Open Data API. " +
+                                    "If opening from a local file, use a live server (e.g. VS Code Live Server). " +
+                                    "Error: " + err.message;
+            errDiv.style.display  = "block";
+        });
+}
+
+// Allow pressing Enter to search
+document.getElementById("searchInput").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") { searchRating(); }
+});
