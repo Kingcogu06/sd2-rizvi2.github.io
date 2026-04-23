@@ -1,5 +1,6 @@
 # Requirements
 ## Functional Requirements 
+The functional requirements below define what the application needs for the user's needs. Each requirement is connected to the use - case diagrams
 The Functional Requirements that the food hygiene app have are:
 * Search functionality -> Users are able to search for food businesses by name, hygiene rating, location or cuisine.
 * Food hygiene ratings -> Display offical food hygiene scores.
