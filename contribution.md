@@ -44,19 +44,31 @@
 
 
 
-| 27 Oct 2025 | Started the planning page, wrote the business case and problem statement | Reviewed the planning page and added to the risks section |
-| 10 Nov 2025 | Wrote the user stories and actors section | Added user stories for business owners and inspectors |
-| 24 Nov 2025 | Completed all three use case tables and the full SRS | Reviewed use cases and added extra functional requirements |
-| 08 Dec 2025 | Edited the planning page for spelling, grammar and flow | Reviewed planning page and added to the context diagram explanations |
-| 22 Dec 2025 | Finalised the requirements page and checked all FRs and NFRs | Expanded the non-functional requirements with measurable criteria |
-| 05 Jan 2026 | Created wireframes for the Home page and Find a Rating page | Created wireframes for the Report a Problem page and Business Dashboard |
-| 19 Jan 2026 | Built the Home page in HTML and CSS | Researched the Bristol Open Data API data structure |
-| 02 Feb 2026 | Finished all wireframe explanations and added colour palette documentation | Finished the Business Dashboard wireframe explanation |
-| 16 Feb 2026 | Added the GeoJSON file to the repository and started the Find a Rating page | Added the backup GeoJSON file and researched Leaflet.js |
-| 02 Mar 2026 | Connected the Find a Rating page to the Bristol Open Data API | Integrated the Leaflet.js map and built the map and list view toggle |
-| 16 Mar 2026 | Wrote the implementation page including architecture, API docs and user guide | Created the MVP and wrote the introduction section of implementation |
-| 30 Mar 2026 | Reviewed all three stages and expanded the risks section | Wrote the test plan and all test cases in the testing page |
-| 23 Apr 2026 | Added the requirements traceability matrix and did a final check of all pages | Completed the traceability matrix in testing and did final mobile testing |
+ 27 Oct 2025 - Started the planning page, wrote the business case and problem statement | Reviewed the planning page and added to the risks section 
+ 
+ 10 Nov 2025 - Wrote the user stories and actors section | Added user stories for business owners and inspectors 
+ 
+ 24 Nov 2025 - Completed all three use case tables and the full SRS | Reviewed use cases and added extra functional requirements 
+ 
+ 08 Dec 2025 - Edited the planning page for spelling, grammar and flow | Reviewed planning page and added to the context diagram explanations 
+ 
+ 22 Dec 2025 - Finalised the requirements page and checked all FRs and NFRs | Expanded the non-functional requirements with measurable criteria 
+ 
+ 05 Jan 2026 - Created wireframes for the Home page and Find a Rating page | Created wireframes for the Report a Problem page and Business Dashboard 
+ 
+ 19 Jan 2026 - Built the Home page in HTML and CSS | Researched the Bristol Open Data API data structure 
+ 
+ 02 Feb 2026 - Finished all wireframe explanations and added colour palette documentation | Finished the Business Dashboard wireframe explanation 
+ 
+ 16 Feb 2026 - Added the GeoJSON file to the repository and started the Find a Rating page | Added the backup GeoJSON file and researched Leaflet.js 
+ 
+ 02 Mar 2026 - Connected the Find a Rating page to the Bristol Open Data API | Integrated the Leaflet.js map and built the map and list view toggle 
+ 
+ 16 Mar 2026 - Wrote the implementation page including architecture, API docs and user guide | Created the MVP and wrote the introduction section of implementation 
+ 
+ 30 Mar 2026 - Reviewed all three stages and expanded the risks section | Wrote the test plan and all test cases in the testing page 
+ 
+ 23 Apr 2026 - Added the requirements traceability matrix and did a final check of all pages | Completed the traceability matrix in testing and did final mobile testing 
 
 
 
