@@ -45,7 +45,12 @@ TODO: Describe the major components of your architecture. Are any particular arc
 ![Insert your component Diagram here](images/component.png)
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
+Our applicayion sources the dataset from the Bristol Open Data API. The dataset was downloaded as a Geojson file and is used as the primary dataset for the website. Consuners are able to search for businesses by:
+- Search by business name as users can search for food businesses by entering their name. This allows users to gain hygiene ratings of a specific location.
+- Filter by hygiene rating, users can filter results by hygiene ratings. This allows consumers to see businesses with a specific rating which makes it easier to focus on businesses that meet the users preferred expectations.
+- Postcode search, by entering a postcode users are able to view businesses with hygiene ratings in a specific area. This feature allows to give users information for their area of interest.
+
+To make sure the dataset does not fail, the webiste includes a backup data loading mechanism. If the primary dataset is unavailable then the application would load the data from backup json file. This backup option ensures that the app remains functional and is available 24/7 and 365 days a year.
 
 ![UML Class diagrams representing JSON query results](images/class1.png)
 TODO: Repeat as necessary
