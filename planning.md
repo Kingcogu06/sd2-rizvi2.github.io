@@ -27,16 +27,13 @@ Many food businesses/restaurants lack access to proper training and hygiene moni
 
 
 ### Expected Risks
-* Low user adoption
-* Data/security concerns
-* inaccurate or manipulated data
-* system downtime to update ratings
-* legal challenges
-* limited financial sustainablity
-* negative public feedback
-* Convincing users to go to less known businesses
-* Handling large datasets to maintain quick loading times.
-* not enough available data for desired locations
+The risks that may appear for the project are listed below. I have accessed what may happen and how to avoid the problems:
+* Low user adoption - There is a medium likihood that users wouldn't be able to adapt to the app and this would have a high impact on the project's success. Many people already search for restaurants through competitors such as Google Maps or TripAdvisor so trying to convince users to use a dedicated food hygiene rating app will need to feel more useful rather than go to those convient apps. To avoid this, the design will include a simple User Interface to make it suitable for all age groups.
+* Data/security concerns- The likihood of this is low but the impact would be high if user data was actually compromised. The app avoids this by not storing data except for people's favourite businesses. All data comes from publically available data which is uploaded from the government.
+* Inaccurate or manipulated data - The risk of this inaccurate data being is low but has a high impact on the app's success. The data will come from Bristol's Open Data API dataset, there will be a small delay and updating the data but shouldn't cause delays.
+* Legal challenges - The government allows public use of Bristol's dataset, this includes commerical use for business.
+* Convincing users to go to less known businesses - There is a higher risk for this as people are more likely to go to more familar or popular businesses and the app's goal to try to expose less known businesses is a rather hard goal. To avoid people going to popular places, the results are placed by default rather than by popularity. If a business has excellent hygiene results than the business will have more exposure than others.
+
 
 ## Project Scope
 The project is a food hygiene rating application that enables users to:
