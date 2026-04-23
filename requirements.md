@@ -165,7 +165,7 @@ The Health inspector will use the application for these reasons:
 * If geolocation is enabled, the system will show a 'You are Here' marker at the user's location and display nearby locations within 500 metres of the user.
 * If geolocation is denied, all businesses are displayed in a list format and doesn't involve a 'You are Here' marker, UC1.
 
-**FR6** - The system shall allow users to use filters to help users define their search more easily. Works for both map view and list view, UCL.
+**FR6** - The system shall allow users to use filters to help users define their search more easily. Works for both map view and list view, UC1.
 
 **FR7** - The system shall provide a business Name and location search tool at the top of the page to allow users to filter their results, UC1.
 
@@ -192,22 +192,22 @@ The Health inspector will use the application for these reasons:
 
 ### Non-Functional Requirements
 
-**NFR1** - The system shall be available 24/7, allowing business owners to access it at anytime, UC2.
+**NFR1** - The system shall be available 24/7 and 365 days a year. This all0ws users and business owners to access food hygiene ratings at any time. This is significant as it allows some business owners to verify or to respond to reports outside of their business hours. If the primary Bristol Open Data database is unavailable then the system shall automatically switch to the GeoJSON backup data within a quick time ensuring that the app is always able to run, UC2.
 
-**NFR2** - The system shall update search results and filters without needing a page refresh, UC1.
+**NFR2** - The system shall update search results and apply filters without needing a full page refresh. Search results should be appearing within 3 seconds of users submitting their filters. If the API is taking longer than 3 seconds then there shall be a visible loading indicator so that the user is aware that the system is processing their request, UC1.
 
-**NFR3** - Switching between Map view and List view shall be seamless and keep the same results no matter the view of the results, UC1.
+**NFR3** - Switching between Map view and List view shall be seamless and keep the same results no matter the view of the results. The users should not need to reapply their search term or reapply filters when toggling between perspectives. Both perspectives must display the same businesses in the same order, UC1.
 
-**NFR4** - The system shall let users know when there are API issues by displaying messages or suggesting alternatives when the API is down, UC1, UC3.
+**NFR4** - The system shall inform users when the Bristol Open Data API is unavailable or having errors. This shall be displayed an alert message at the top of the results which tells the user that the main data API is unavaiable and the system has now started to use the backup database. The message shan't be too overwhelming for the user and not too technical so that the users can undertsand it clearly, UC1, UC3.
 
-**NFR5** - The system shall display an error message if the Bristol Open Data API fails and use a GeoJSON for data retrieval. Displays a message when the first database fails and informs the user that the system started using the backup database, UC1, UC3.
+**NFR5** - The system shall display an error message if the Bristol Open Data API fails and use a GeoJSON for data retrieval. Displays a message when the first database fails and informs the user that the system started using the backup database. If both databases are down then the website will then display message that states to 'Try again later', UC1, UC3.
 
-**NFR6** - Page navigation should be responsive and efficient, allowing users to browse multiple pages without latency, UC1.
+**NFR6** - Page navigation should be responsive and efficient. When a user clicks next or previous then the results should load without needing a full refresh. the current page number and total result count shall always be visible to the user. The naviagtion controls shall always remian visible for all screen sizes and shouldn't be hidden on mobile devices due to their decreased screen sizes, UC1.
 
-**NFR7** - The system shall be able to handle large datasets effectively, the system shall be able to search, filter and navigate the results, UC1.
+**NFR7** - The system shall be able to handle large datasets effectively. The system should be able to search, filter and naviagte through pages without any latency. Results should be loaded in pages of 10 results at a time so there is not too much overwhelming the browser with too much data at once and confusing the user. , UC1.
 
-**NFR8** - The system will be able for users and business owners to fill a form to report any issues with the database or details of the business, UC1, UC2.
+**NFR8** - The report a problem form should be accessible for all users. The form should have clear labels for each field and placeholder text explaining what information is needed in each section. There should be a message after completing the report to let the users know that their submission has been confirmed, UC1, UC2.
 
-**NFR9** - The results map view and list view should be accessible and should work for all types of screen types, UC1.
+**NFR9** - The website shall be fully functional across all screen types. The layout shall have responsiveness CSS. The application shall meet basic accessiblity standards for the application to be accessible to more users, UC1.
 
 
