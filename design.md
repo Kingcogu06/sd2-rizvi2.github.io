@@ -51,6 +51,8 @@ There is a rating card which shows the businesses' focal point of the dashboard,
 The user interface for the food hygiene rating application is designed to be a simple and accessible on all screen sizes. The application allows consumers to search for food hygiene ratings for food businesses.
 ## Header
 The header section has the title of the application which is 'GrubGrade' and has the description of the role of the website. There is an image which is used as the company's branding, this logo represents what the company does and represents the business. 
+## Footer
+The footer has very little content due to allowing the users to not be distracted away from the main content of the page. The footer only contains the business' social media so people can stay updated about any bugs or updates the application will have. 
 ## Report a problem form
 This lets users report issues about a business through a form. The users can report food safety issues, unregistered businesses and food-related crimes. The forms are designed to have clear placeholder labels so users known what to put into each section to be able to report their problem. After the form is submitted, there is a message displaying that the report has sucessfully been submitted.
 
