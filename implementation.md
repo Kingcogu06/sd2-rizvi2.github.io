@@ -61,7 +61,16 @@ To make sure the dataset does not fail, the webiste includes a backup data loadi
 
 <img width="1887" height="896" alt="image" src="https://github.com/user-attachments/assets/2a505595-508f-4026-92a3-8e75268d0b8d" /> user types in cafe and a list of cafes in bristol appear along with their rating.
 
-<img width="1839" height="887" alt="image" src="https://github.com/user-attachments/assets/4fea59f1-ae82-496f-b60e-9cd1488c2287" /> once they have chosen their desired business a card with the namer,rating and last inspected will appear with a rating between 1-5.
+<img width="1839" height="887" alt="image" src="https://github.com/user-attachments/assets/4fea59f1-ae82-496f-b60e-9cd1488c2287" /> once they have chosen their desired business a card with the name,rating and last inspected will appear with a rating between 1-5.
+
+<img width="1813" height="877" alt="image" src="https://github.com/user-attachments/assets/32d491e7-b674-4a45-9d6e-68b174a3d156" /> the message that appear when a user clicks get rating without putting anything down.
+
+<img width="1796" height="869" alt="image" src="https://github.com/user-attachments/assets/d5f4ba1d-0f4e-40a3-90d7-f7169e43b495" /> what appears when a the rating for a business is unknown.
+
+<img width="1741" height="892" alt="image" src="https://github.com/user-attachments/assets/7b949298-9108-4fd6-9fb8-d6c88d5e4217" /> what appears when the name of the bussiness isn't on the data.
+
+
+
 
 
 
