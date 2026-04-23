@@ -1,6 +1,6 @@
 # Enter the contributions of each team member
 
-## TEAM MEMBER CONTRIBUTION
+## TEAM MEMBER CONTRIBUTION- Daniyal and Mwelwa combined conrtibutions 
 
 
 
@@ -25,6 +25,8 @@
  30 Mar 2026 - Reviewed all three stages and expanded the risks section | Wrote the test plan and all test cases in the testing page 
  
  23 Apr 2026 - Added the requirements traceability matrix and did a final check of all pages | Completed the traceability matrix in testing and did final mobile testing 
+
+ 23 apr 2026 - created uml diagram 
 
 
 
