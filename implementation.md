@@ -57,4 +57,11 @@ To make sure the dataset does not fail, the webiste includes a backup data loadi
 
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
+<img width="1895" height="906" alt="image" src="https://github.com/user-attachments/assets/5315845c-79a2-4f01-a895-102c421a52b2" /> This is the page the user will land on when they try to search the hygine rating of a business. 
+
+<img width="1887" height="896" alt="image" src="https://github.com/user-attachments/assets/2a505595-508f-4026-92a3-8e75268d0b8d" /> user types in cafe and a list of cafes in bristol appear along with their rating.
+
+<img width="1839" height="887" alt="image" src="https://github.com/user-attachments/assets/4fea59f1-ae82-496f-b60e-9cd1488c2287" /> once they have chosen their desired business a card with the namer,rating and last inspected will appear with a rating between 1-5.
+
+
+
